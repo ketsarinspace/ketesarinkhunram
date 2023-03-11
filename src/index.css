@@ -177,6 +177,17 @@ img {
   .container {
     width: var(--container-width-sm);
   }
+
+  section > h2 {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-with: 390px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
   section > h2 {
     margin-top: 2rem;
   }
