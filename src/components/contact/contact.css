@@ -58,3 +58,10 @@
     width: var(--container-width-sm);
   }
 }
+
+@media screen and (max-width: 360px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
