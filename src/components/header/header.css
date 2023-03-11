@@ -127,18 +127,25 @@ h5 {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 360px) {
   .header__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
   h1 > span {
-    font-size: 0.5rem;
+    font-size: 1.2rem;
   }
-  .header__container {
-    position: relative;
+  .cta {
+    position: absolute;
+
+    bottom: 9rem;
+  }
+  .cta > .btn-header {
+    color: green;
+    font-size: 0.8rem;
   }
 
   .header__socials,
