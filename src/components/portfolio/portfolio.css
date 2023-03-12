@@ -13,7 +13,7 @@
 }
 
 .portfolio__item:hover {
-  background-color: blueviolet;
+  background-color: rgba(137, 43, 226, 0.929);
   transition: 0.5s;
 
   transform: translate(1px, 5px);
