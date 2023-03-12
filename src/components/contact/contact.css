@@ -12,18 +12,19 @@
 }
 
 .contact__option {
-  background: rgba(137, 43, 226, 0.507);
+  /* background: rgba(137, 43, 226, 0.507); */
   padding: 1.2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   text-align: center;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
 }
 
 .contact__option:hover {
-  background: rgb(222, 139, 252);
-  border-color: black;
+  /* background: rgba(222, 139, 252, 0.63); */
+  border-right: 1rem solid #fff;
+  border-left: 1rem solid #fff;
   transition: 0.5s;
-  color: black;
+  /* color: black; */
 }
 
 .contact__option-icon {

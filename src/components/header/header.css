@@ -44,6 +44,11 @@ h5 {
   justify-content: center;
 }
 
+.image-icon {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+}
+
 .header__socials {
   display: flex;
   flex-direction: column;
@@ -135,6 +140,10 @@ h5 {
     color: #008000;
     font-size: 0.8rem;
   }
+  .image-icon {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
 
   .header__socials,
   .scroll__down {
@@ -167,4 +176,3 @@ h5 {
     display: none;
   }
 }
-

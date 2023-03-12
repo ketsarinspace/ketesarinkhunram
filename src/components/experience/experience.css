@@ -6,10 +6,11 @@
 }
 
 .experience__container > div {
-  background: var(--color-bg-card);
+  /* background: var(--color-bg-card); */
+  border-right: 0.5rem solid #fff;
   padding: 2rem 3rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
 }
 
 .experience__container > div:hover {
