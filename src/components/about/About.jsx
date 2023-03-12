@@ -56,11 +56,11 @@ const About = () => {
           </div>
           <Fade bottom>
             <p>
-              Hi, I’m ketsarin khunram. Now I'm interested in the position of
-              front-end development, back-end development, full-stack
-              development and I’m looking for new opportunities to prove myself
-              and always looking for knowledge by myself and I can find a
-              program solution using English.
+              Hi, I’m <b>ketsarin khunram</b>. Now I'm interested in the
+              position of front-end development, back-end development,
+              full-stack development and I’m looking for new opportunities to
+              prove myself and always looking for knowledge by myself and I can
+              find a program solution using English.
               <br />I assure you that I will give my best to expand your online
               reach and help you cater for a better online presence across
               different media channels.

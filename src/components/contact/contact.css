@@ -1,14 +1,10 @@
 .container.contact__container {
-  /* width: 80%; */
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   margin-bottom: 8rem;
 }
 .contact__options {
-  /* display: flex;
-  flex-direction: row;
-  gap: 1.2rem; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
@@ -40,9 +36,6 @@
   font-size: 0.8rem;
 }
 
-/* ======================== FORM ============ */
-
-/*======================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     grid-template-columns: 1fr;
@@ -52,7 +45,6 @@
   }
 }
 
-/*======================== MEDIA QUERIES (small DEVICES) ================= */
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);

@@ -6,9 +6,6 @@ header {
   background-size: cover;
 
   clip-path: polygon(0 0, 100% 0, 100% 600px, 0 100%);
-
-  /* background: no-repeat; */
-  /* background: linear-gradient(var(--color-bg-card), #e809ce); */
 }
 
 h5 {
@@ -40,7 +37,6 @@ h5 {
   position: relative;
 }
 
-/* ===================== CTA =============== */
 .cta {
   margin-top: 2.5rem;
   display: flex;
@@ -70,7 +66,6 @@ h5 {
   background: var(--color-primary);
 }
 
-/* =========== ME ========== */
 .me {
   background-color: rgb(255, 255, 255);
   width: 19rem;
@@ -83,7 +78,6 @@ h5 {
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* =========== SCROLL DOWN ========== */
 .scroll__down {
   position: absolute;
   right: -2.3rem;
@@ -97,12 +91,9 @@ h5 {
 .scroll__down:hover {
   font-weight: 300;
   padding: 0.5rem;
-  /* background-color: var(--color-bg-card); */
   border-radius: 3rem;
   color: var(--color-black);
 }
-
-/* =========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
   header {
@@ -110,8 +101,6 @@ h5 {
   }
 }
 
-/* =========== MEDIA QUERIES (SMALL DEVICES) ========== */
-/* max-width: 600px คือ 60 พิกเซลและต่ำกว่า */
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
@@ -126,8 +115,8 @@ h5 {
     display: none;
   }
 }
-
-@media screen and (max-width: 360px) {
+/*=============== Pixel 5 ===============*/
+@media only screen and (max-width: 370px) {
   .header__container {
     display: flex;
     flex-direction: column;
@@ -154,7 +143,8 @@ h5 {
   }
 }
 
-@media screen and (max-width: 390px) {
+/*=============== iPhone 12 Pro ===============*/
+@media only screen and (max-width: 400px) {
   .header__container {
     display: flex;
     flex-direction: column;
@@ -163,15 +153,43 @@ h5 {
     position: relative;
   }
   h1 > span {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .cta {
     position: absolute;
 
-    bottom: 9rem;
+    bottom: 15rem;
   }
   .cta > .btn-header {
-    color: green;
+    color: #008000;
+    font-size: 0.8rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+/*=============== iPhone XR ===============*/
+@media only screen and (max-width: 420px) and (min-width: 410px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  h1 > span {
+    font-size: 1.6rem;
+  }
+  .cta {
+    position: absolute;
+
+    bottom: 17rem;
+  }
+  .cta > .btn-header {
+    color: #008000;
     font-size: 0.8rem;
   }
 

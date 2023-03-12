@@ -5,21 +5,12 @@
 }
 
 .portfolio__item {
-  /* background: rgb(78, 78, 250); */
   background: var(--color-bg-card);
   padding: 1.3rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   text-align: center;
-  /* transition: red; */
 }
-
-/* .portfolio__item:hover {
-  border-radius: 2rem;
-  border: 1px solid transparent;
-
-  transition: 0.3s;
-} */
 
 .portfolio__item:hover {
   background-color: blueviolet;
@@ -56,10 +47,8 @@
 }
 .reveal:active {
   transform: translateY(0px);
-  /* opacity: 1; */
 }
 
-/*======================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
@@ -67,7 +56,6 @@
   }
 }
 
-/*======================== MEDIA QUERIES (small DEVICES) ================= */
 @media screen and (max-width: 600px) {
   .portfolio__container {
     grid-template-columns: 1fr;

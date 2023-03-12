@@ -10,15 +10,13 @@ nav {
   bottom: 2rem;
 
   display: flex;
-  gap: 0.8rem; /*gap ช่องว่าง ห่างกัน 0.8rem*/
+  gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
-  /* backdrop-filter: blur(15px); สั่งเบลอพื้นหลัง */
 }
 
 nav a {
   background: transparent;
-  /* ทำให้ background สมุ๊ด*/
   padding: 0.5rem;
   border-radius: 50%;
   display: flex;
