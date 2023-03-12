@@ -115,8 +115,7 @@ h5 {
     display: none;
   }
 }
-/*=============== Pixel 5 ===============*/
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 515px) {
   .header__container {
     display: flex;
     flex-direction: column;
@@ -125,7 +124,109 @@ h5 {
     position: relative;
   }
   h1 > span {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+  }
+  .cta {
+    position: absolute;
+
+    bottom: 14rem;
+  }
+  .cta > .btn-header {
+    color: #008000;
+    font-size: 0.8rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  h1 > span {
+    font-size: 0.5rem;
+  }
+  .cta {
+    position: absolute;
+
+    bottom: 17rem;
+  }
+  .cta > .btn-header {
+    color: #008000;
+    font-size: 0.8rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  h1 > span {
+    font-size: 1.7rem;
+  }
+  .cta {
+    position: absolute;
+    bottom: 18rem;
+  }
+  .cta > .btn-header {
+    color: #008000;
+    font-size: 0.8rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  h1 > span {
+    font-size: 1.7rem;
+  }
+  .cta {
+    position: absolute;
+    bottom: 17rem;
+  }
+  .cta > .btn-header {
+    color: #008000;
+    font-size: 0.8rem;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  h1 > span {
+    font-size: 1.5rem;
   }
   .cta {
     position: absolute;
@@ -143,41 +244,11 @@ h5 {
   }
 }
 
-/*=============== iPhone 12 Pro ===============*/
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 365px) {
   .header__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  h1 > span {
-    font-size: 1.4rem;
-  }
-  .cta {
-    position: absolute;
-
-    bottom: 15rem;
-  }
-  .cta > .btn-header {
-    color: #008000;
-    font-size: 0.8rem;
-  }
-
-  .header__socials,
-  .scroll__down {
-    display: none;
-  }
-}
-
-/*=============== iPhone XR ===============*/
-@media only screen and (max-width: 420px) and (min-width: 410px) {
-  .header__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
   }
   h1 > span {
@@ -186,10 +257,10 @@ h5 {
   .cta {
     position: absolute;
 
-    bottom: 17rem;
+    bottom: 13rem;
   }
   .cta > .btn-header {
-    color: #008000;
+    color: green;
     font-size: 0.8rem;
   }
 
