@@ -129,7 +129,7 @@ h5 {
   .cta {
     position: absolute;
 
-    bottom: 14rem;
+    bottom: 10rem;
   }
   .cta > .btn-header {
     color: #008000;
@@ -142,7 +142,7 @@ h5 {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
   .header__container {
     display: flex;
     flex-direction: column;
@@ -150,12 +150,12 @@ h5 {
     position: relative;
   }
   h1 > span {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
   }
   .cta {
     position: absolute;
 
-    bottom: 17rem;
+    bottom: 10rem;
   }
   .cta > .btn-header {
     color: #008000;
@@ -167,7 +167,7 @@ h5 {
     display: none;
   }
 }
-
+/* 
 @media only screen and (max-width: 420px) {
   .header__container {
     display: flex;
@@ -268,4 +268,4 @@ h5 {
   .scroll__down {
     display: none;
   }
-}
+} */
